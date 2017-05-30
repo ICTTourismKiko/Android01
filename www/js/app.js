@@ -1,2 +1,3 @@
-// This is a JavaScript file
-
+function Pop_to_list() {
+    document.getElementById("navi").pushPage("list.html"); 
+}
