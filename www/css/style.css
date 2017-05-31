@@ -24,6 +24,18 @@
     padding: 0 0 0 0; /* カードの余白の大きさ[上][右][下][左]の順  */
 }
 
+.icon_camera{
+    width: 50px;
+    height: 50px;
+}
+
+.icon_pencil{
+    width: 50px;
+    height: 50px;
+    margin:0 10px 0 0;
+}
+
+
 #map_canvas{
     position: absolute;
     left: 0px;

@@ -13,3 +13,7 @@ function Push_to_camera() {
 function Push_to_edit() {
     document.getElementById("navi").pushPage("edit.html");
 }
+
+function Push_to_detail_picture() {
+    document.getElementById("navi").pushPage("detail_picture.html");
+}
