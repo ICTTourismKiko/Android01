@@ -1,3 +1,4 @@
+/*ここからlist*/
 .item{
     padding: 10px; /* カードの余白の大きさ(上下左右が全て同じ)  */
     line-height 1; /* フォントの大きさ＋上下の余白 */
@@ -23,3 +24,10 @@
     padding: 0 0 0 0; /* カードの余白の大きさ[上][右][下][左]の順  */
 }
 
+#map_canvas{
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 300px;
+}
