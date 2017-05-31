@@ -31,7 +31,7 @@ document.addEventListener('init', function(event) {
             var here_latlng = new google.maps.LatLng(41.677503, 140.435202);
             var spot_marker = new google.maps.Marker({
               map : map,             // 対象の地図オブジェクト
-              position : here_latlng   // 緯度・経度
+              position : here_latlng, // 緯度・経度
             });
             
           },
