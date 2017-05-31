@@ -5,7 +5,6 @@
 }
 
 .item-thum{
-    background-color: #ccc; /* 色（灰色） */
     width: 140px; /* 写真の横の大きさ */
     height: 190px; /* 写真の縦の大きさ */
     border-radius: 4px; /* 角を丸くする */
