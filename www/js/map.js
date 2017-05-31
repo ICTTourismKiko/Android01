@@ -5,7 +5,13 @@ document.addEventListener('init', function(event) {
             center: new google.maps.LatLng(41.677503, 140.435202),    //地図上で表示させる緯度経度
             zoom: 14,                                                 //地図の倍率
             mapTypeId: google.maps.MapTypeId.ROADMAP                  //地図の種類
-        };
-        var map = new google.maps.Map(document.getElementById("map_canvas"),mapOptions);
+        };        
+        var map = new google.maps.Map(document.getElementById("map_canvas"),mapOptions);//マップ作成
+        
+        var latlng = new google.maps.LatLng(41.677503, 140.435202); //ピンの場所
+        var marker = new google.maps.Marker({
+                position: latlng,
+                map: map
+            }); //ピンを配置する
     }
 });
